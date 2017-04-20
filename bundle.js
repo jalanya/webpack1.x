@@ -42,10 +42,10 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	document.write("Welcome to Big Hair Concerts Baby2!!!!!");
-	console.log('App loaded');
+	(function webpackMissingModule() { throw new Error("Cannot find module \"./utils\""); }());
+	(function webpackMissingModule() { throw new Error("Cannot find module \"./app.js\""); }());
 
 
 /***/ })
