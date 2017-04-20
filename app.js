@@ -1,2 +1,5 @@
-document.write("Welcome to Big Hair Concerts Baby2!!!!!");
+require('./login');
+
+document.write("Welcome to Big Hair Concerts!!");
+
 console.log('App loaded');
