@@ -1,7 +1,8 @@
 //require('./login');
 import {login} from "./login";
 require('../css/bootstrap.css');
-require('../css/app.scss');
+//require('../css/app.scss');
+require('../css/app.less');
 
 login('admin', 'radical');
 document.write("Welcome to Big Hair Concerts!!");
