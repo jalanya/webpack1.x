@@ -11,6 +11,8 @@ img.src = require('../images/webpack_logo.png');
 
 document.getElementById('img_container').appendChild(img);
 */
+$('#testDiv').text('jQuery modified this content(see app.js)');
+
 require('../css/bootstrap.css');
 //require('../css/app.scss');
 require('../css/app.less');
