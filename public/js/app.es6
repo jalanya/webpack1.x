@@ -1,5 +1,8 @@
 //require('./login');
 import {login} from "./login";
+var config = require('../../config/config.json');
+
+console.log(config.app_loaded_msg);
 /*
 var img = document.createElement('img');
 img.style.height = "25%";
