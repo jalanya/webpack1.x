@@ -47,7 +47,7 @@ module.exports = {
     ],*/
     loaders: [
       {
-        test: /\.es6$/,
+        test: /\.(es6|js)$/,
         exclude: /node_modules/,
         loader: "babel-loader"
       },
